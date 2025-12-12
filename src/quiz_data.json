@@ -2109,7 +2109,7 @@
         "options": [
             "D: coherence",
             "A: consistency",
-            "*B: temperature",
+            "B: temperature",
             "C: accuracy"
         ],
         "correct": 2
@@ -2121,7 +2121,7 @@
             "B: facilitate communications between stakeholders and response teams",
             "A: generate accurate and timely reports",
             "C: managing reputational risks associated with security breaches",
-            "*D: all of the above"
+            "D: all of the above"
         ],
         "correct": 3
     },
@@ -2131,7 +2131,7 @@
         "options": [
             "B: retention",
             "C: expiration",
-            "*D: all of the above",
+            "D: all of the above",
             "A: version"
         ],
         "correct": 2
@@ -2141,7 +2141,7 @@
         "question": "LLM input and data quality assessment can be hindered by a lack of input _____________.",
         "options": [
             "D: sampling",
-            "*B: validation",
+            "B: validation",
             "A: diversity",
             "C: bias"
         ],
@@ -2153,7 +2153,7 @@
         "options": [
             "B: prompts",
             "A: transformers",
-            "*D: data labels and classifications",
+            "D: data labels and classifications",
             "C: natural language"
         ],
         "correct": 2
@@ -2165,7 +2165,7 @@
             "C: they deliver consistent, predictable outputs",
             "B: they quickly identify malicious prompt injections",
             "D: all of the above",
-            "*A: they do not function with encrypted content"
+            "A: they do not function with encrypted content"
         ],
         "correct": 3
     },
@@ -2173,7 +2173,7 @@
         "id": 254,
         "question": "One problem with LLMs is _____________ , which can result from model training associating data with a particular demographic.",
         "options": [
-            "*A: bias",
+            "A: bias",
             "C: overreliance",
             "D: manipulation",
             "B: hallucination"
@@ -2184,7 +2184,7 @@
         "id": 255,
         "question": "Supervised Learning LLM training is performed using ______________.",
         "options": [
-            "*B: labeled data",
+            "B: labeled data",
             "D: output filters",
             "C: parameter prompts",
             "A: unlabeled data"
@@ -2196,7 +2196,7 @@
         "question": "The term for LLM generated text that is not logically consistent with input, but still sounds plausible to a human reader is _____________.",
         "options": [
             "B: neural cross-connect",
-            "*C: hallucination",
+            "C: hallucination",
             "A: facsimile",
             "D: parallel assumption"
         ],
@@ -2208,7 +2208,7 @@
         "options": [
             "C: Machine learning",
             "A: Data processing",
-            "*D: NLP - natural language processing",
+            "D: NLP - natural language processing",
             "B: Vision processing"
         ],
         "correct": 2
@@ -2218,7 +2218,7 @@
         "question": "______________ are forms of digitally altered media that use AI to create believable messages engineered to encourage people to provide access to information or systems they would otherwise protect.",
         "options": [
             "A: Mirror transformers",
-            "*C: Deepfakes",
+            "C: Deepfakes",
             "D: Rogue Agents",
             "B: Altered Learning Agents - AGAs"
         ],
@@ -2231,7 +2231,7 @@
             "D: Parameter learning",
             "C: Pre-trained learning",
             "B: Supervised learning",
-            "*A: Unsupervised learning"
+            "A: Unsupervised learning"
         ],
         "correct": 3
     },
@@ -3252,7 +3252,7 @@
         "question": "How does automation in SecOps configuration contribute to faster incident response readiness?",
         "options": [
             "A: By automatically resolving all detected incidents without human intervention.",
-            "*C: By pre-configuring response actions and playbooks in SOAR platforms based on defined security policies, allowing for quicker activation during an incident.",
+            "C: By pre-configuring response actions and playbooks in SOAR platforms based on defined security policies, allowing for quicker activation during an incident.",
             "D: By focusing solely on configuring preventative controls, thus eliminating incidents.",
             "B: By significantly reducing the number of security alerts generated."
         ],
@@ -3264,7 +3264,7 @@
         "options": [
             "D: By automatically writing custom scripts for every unique security scenario.",
             "A: By completely eliminating the need for security engineers.",
-            "*B: By ensuring consistent application of baseline security policies and reducing human error in repetitive setup tasks.",
+            "B: By ensuring consistent application of baseline security policies and reducing human error in repetitive setup tasks.",
             "C: By negotiating better licensing terms with security vendors."
         ],
         "correct": 2
@@ -3275,7 +3275,7 @@
         "options": [
             "D: ITIL Service Management",
             "A: Traditional SecOps",
-            "*B: DevSecOps",
+            "B: DevSecOps",
             "C: Waterfall development"
         ],
         "correct": 2
@@ -3287,7 +3287,7 @@
             "D: Conducting market research for new security products.",
             "A: Integrating security directly into the software development lifecycle.",
             "C: Automating the deployment of new software features.",
-            "*B: Monitoring, detecting, responding to, and recovering from security incidents in a live operational environment."
+            "B: Monitoring, detecting, responding to, and recovering from security incidents in a live operational environment."
         ],
         "correct": 3
     },
@@ -3297,7 +3297,7 @@
         "options": [
             "A: The elimination of compliance requirements.",
             "D: Making the security configuration less flexible to changes.",
-            "*C: Enhanced scalability, allowing security configurations to be rapidly deployed and updated across a growing and dynamic IT environment.",
+            "C: Enhanced scalability, allowing security configurations to be rapidly deployed and updated across a growing and dynamic IT environment.",
             "B: A reduction in the variety of security tools needed."
         ],
         "correct": 2
@@ -3306,7 +3306,7 @@
         "id": 371,
         "question": "What is the core function of the \"Technology\" pillar in SOC operations?",
         "options": [
-            "*B: The selection, deployment, and maintenance of tools and platforms (e.g., SIEM, SOAR, EDR, TIP: that enable visibility, detection, analysis, and response.",
+            "B: The selection, deployment, and maintenance of tools and platforms (e.g., SIEM, SOAR, EDR, TIP: that enable visibility, detection, analysis, and response.",
             "C: Developing custom programming languages for security tasks.",
             "A: Ensuring all analysts have the latest smartphone models.",
             "D: The physical layout and ergonomics of the SOC workspace."
@@ -3319,7 +3319,7 @@
         "options": [
             "D: To ensure that security configurations are never changed once implemented.",
             "A: To make the SecOps team smaller by replacing most human roles.",
-            "*C: To free up skilled security personnel from repetitive, manual tasks, allowing them to focus on more strategic initiatives, threat hunting, and complex incident analysis.",
+            "C: To free up skilled security personnel from repetitive, manual tasks, allowing them to focus on more strategic initiatives, threat hunting, and complex incident analysis.",
             "B: To increase the complexity of the security stack."
         ],
         "correct": 2
@@ -3329,7 +3329,7 @@
         "question": "Which key element is crucial for _both_ SecOps and DevSecOps to function effectively?",
         "options": [
             "A: Daily manual code reviews by the CEO.",
-            "*B: Automation of security tasks and processes.",
+            "B: Automation of security tasks and processes.",
             "D: A strict separation of duties with no collaboration between teams.",
             "C: The exclusive use of open-source security tools."
         ],
@@ -3342,7 +3342,7 @@
             "B: The vendors who supply security tools to the SOC.",
             "D: The individuals responsible for the physical security of the SOC facility.",
             "A: The end-users whose activity the SOC monitors.",
-            "*C: The skilled cybersecurity professionals (analysts, engineers, managers: responsible for executing SOC functions, their expertise, and ongoing training."
+            "C: The skilled cybersecurity professionals (analysts, engineers, managers: responsible for executing SOC functions, their expertise, and ongoing training."
         ],
         "correct": 3
     },
@@ -3353,7 +3353,7 @@
             "D: Focusing security efforts exclusively on network infrastructure.",
             "B: Isolating the security team from the development and operations teams.",
             "A: Performing security audits only after software is fully deployed.",
-            "*C: Embedding security practices, tools, and responsibilities throughout the entire software development lifecycle (SDLC), from design to deployment and operation."
+            "C: Embedding security practices, tools, and responsibilities throughout the entire software development lifecycle (SDLC), from design to deployment and operation."
         ],
         "correct": 3
     },
@@ -3631,7 +3631,7 @@
         "options": [
             "B:By requiring analysts to manually correlate all alerts.",
             "D:By only focusing on network traffic analysis.",
-            "*C:By using behavioral analytics and AI-driven local analysis to detect unknown malware, fileless attacks, and anomalous activity across endpoint, network, and cloud data.",
+            "C:By using behavioral analytics and AI-driven local analysis to detect unknown malware, fileless attacks, and anomalous activity across endpoint, network, and cloud data.",
             "A:By solely relying on known malware signatures."
         ],
         "correct": 2
@@ -3642,7 +3642,7 @@
         "options": [
             "C: By solely relying on pre-defined signature-based detection methods.",
             "D: By creating more complex CAPTCHAs to stop bot attacks.",
-            "*B: By rapidly analyzing massive datasets to identify anomalous patterns and potential threats in real-time.",
+            "B: By rapidly analyzing massive datasets to identify anomalous patterns and potential threats in real-time.",
             "A: By replacing the need for human security analysts entirely."
         ],
         "correct": 2
@@ -3653,7 +3653,7 @@
         "options": [
             "D: By disabling alerting for low-severity events.",
             "B: By routing all alerts directly to senior management.",
-            "*C: By automatically correlating related alerts into incidents, prioritizing them based on AI-driven risk scoring, and automating initial investigation steps.",
+            "C: By automatically correlating related alerts into incidents, prioritizing them based on AI-driven risk scoring, and automating initial investigation steps.",
             "A: By generating more alerts to ensure nothing is missed."
         ],
         "correct": 2
@@ -3664,7 +3664,7 @@
         "options": [
             "C: Exclusively managing user access permissions.",
             "D: Performing penetration testing using AI agents.",
-            "*B: Automating incident response playbooks and orchestrating actions across different security tools based on AI-driven insights and threat intelligence.",
+            "B: Automating incident response playbooks and orchestrating actions across different security tools based on AI-driven insights and threat intelligence.",
             "A: Generating new AI models from scratch for each incident."
         ],
         "correct": 2
@@ -3676,7 +3676,7 @@
             "B: Generate more alerts for the security team to investigate.",
             "A: Increase the complexity of security tools for analysts.",
             "D: Focus solely on preventing external threats while ignoring insider risks.",
-            "*C: Reduce the mean time to detect (MTTD: and mean time to respond (MTTR: to security incidents."
+            "C: Reduce the mean time to detect (MTTD: and mean time to respond (MTTR: to security incidents."
         ],
         "correct": 3
     },
@@ -3685,7 +3685,7 @@
         "question": "What is the main goal of data integration in the context of AI/ML for security?",
         "options": [
             "D: To train AI models on raw, unaltered data.",
-            "*C: To create a unified view by mapping disparate data formats and correlating events.",
+            "C: To create a unified view by mapping disparate data formats and correlating events.",
             "A: To encrypt all collected data.",
             "B: To reduce the volume of data collected."
         ],
@@ -3695,7 +3695,7 @@
         "id": 408,
         "question": "What is the primary goal of Palo Alto Networks' Cortex XSIAM (Extended Security Intelligence and Automation Management: platform?",
         "options": [
-            "*C: To consolidate and normalize security data from all sources, using AI and automation to improve security outcomes and transform security operations.",
+            "C: To consolidate and normalize security data from all sources, using AI and automation to improve security outcomes and transform security operations.",
             "D: To focus exclusively on cloud security posture management.",
             "B: To manually manage security alerts from various point products.",
             "A: To provide only endpoint detection and response capabilities."
@@ -3709,7 +3709,7 @@
             "C: Intrusion Detection System (IDS: alerts",
             "D: Endpoint detection and response (EDR: data",
             "A: Firewall logs",
-            "*B: Employee social media posts unrelated to work"
+            "B: Employee social media posts unrelated to work"
         ],
         "correct": 3
     },
@@ -3797,9 +3797,9 @@
         "options": [
             "A team needs specific access to this project. The team lead needs full administrative access to App Engine and Cloud SQL. A developer must be able to configure and manage all aspects of App Engine deployments. There is also a code reviewer who may periodically review the deployed App Engine source code without making any changes. What types of permissions would you provide to each of these users?",
             "Assign the basic ‘App Engine Admin’ and ‘Cloud SQL Admin” roles to the team lead. Assign the ‘App Engine Admin’ role to the developer. Assign the ‘App Engine Code Viewer’ role to the code reviewer. Assign all these permissions at the analytics project level.",
-            "Create custom roles for all three user types at the “analytics” folder level. For the team lead, provide all appengine.* and cloudsql.* permissions. For the developer, provide appengine.applications.* and appengine.instances.* permissions. For the code reviewer, provide the appengine.instances.* permissions.",
-            "Assign the basic ‘Editor’ role to the team lead. Create a custom role for the developer. Provide all appengine.* permissions to the developer. Provide the predefined ‘App Engine Code Viewer’ role to the code reviewer. Assign all these permissions at the “analytics” folder level.",
-            "Create custom roles for all three user types at the project level. For the team lead, provide all appengine.* and cloudsql.* permissions. For the developer, provide appengine.applications.* and appengine.instances.* permissions. For the code reviewer, provide the appengine.instances.* permissions."
+            "Create custom roles for all three user types at the “analytics” folder level. For the team lead, provide all appengine. and cloudsql. permissions. For the developer, provide appengine.applications. and appengine.instances. permissions. For the code reviewer, provide the appengine.instances. permissions.",
+            "Assign the basic ‘Editor’ role to the team lead. Create a custom role for the developer. Provide all appengine. permissions to the developer. Provide the predefined ‘App Engine Code Viewer’ role to the code reviewer. Assign all these permissions at the “analytics” folder level.",
+            "Create custom roles for all three user types at the project level. For the team lead, provide all appengine. and cloudsql. permissions. For the developer, provide appengine.applications. and appengine.instances. permissions. For the code reviewer, provide the appengine.instances. permissions."
         ],
         "correct": 1
     },
@@ -3908,7 +3908,7 @@
         "options": [
             "Use a Cloud VPN tunnel. Use your DNS provider to create DNS zones and records for private.googleapis.com. Connect the DNS provider to your on-premises network. Broadcast the request from the on-premises environment. Use a software-defined firewall to manage incoming and outgoing requests.",
             "Use Dedicated Interconnect. Configure a VLAN in the auditor's on-premises environment. Use Cloud DNS to create DNS zones and records for restricted.googleapis.com and private.googleapis.com. Set up on-premises routing with Cloud Router. Add custom static routes in the VPC to connect individually to BigQuery, Cloud Storage, and Compute Engine instances.",
-            "Use a Cloud VPN tunnel. Use Cloud DNS to create DNS zones and records for *.googleapis.com. Set up on-premises routing with Cloud Router. Use Cloud Router custom route advertisements to announce routes for Google Cloud destinations.",
+            "Use a Cloud VPN tunnel. Use Cloud DNS to create DNS zones and records for .googleapis.com. Set up on-premises routing with Cloud Router. Use Cloud Router custom route advertisements to announce routes for Google Cloud destinations.",
             "Use Partner Interconnect. Configure an encrypted tunnel in the auditor's on-premises environment. Use Cloud DNS to create DNS zones and A records for private.googleapis.com."
         ],
         "correct": 2
@@ -4772,4 +4772,3 @@
         "correct": 1
     }
 ]
-

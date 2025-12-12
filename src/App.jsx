@@ -178,9 +178,8 @@ const PhilosophyQuiz = () => {
 
     if (isCorrect) {
       setStats(prev => ({ ...prev, correct: prev.correct + 1 }));
-      setTimeout(() => {
-        nextQuestion();
-      }, 1000);
+      // МГНОВЕННЫЙ ПЕРЕХОД (без setTimeout)
+      nextQuestion();
     } else {
       setStats(prev => ({ ...prev, incorrect: prev.incorrect + 1 }));
       if (!incorrectQuestions.includes(questionOrder[currentIndex])) {
